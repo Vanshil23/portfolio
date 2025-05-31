@@ -43,10 +43,10 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              Explore my latest{" "}
+              Explore my latest
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
-              </Link>{" "}
+              </Link>
               showcasing my expertise in Android, Flutter, Java, Dart
               and Android/Flutter development.
             </p>

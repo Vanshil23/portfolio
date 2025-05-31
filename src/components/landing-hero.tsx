@@ -48,9 +48,9 @@ export default function LandingHero() {
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
                I’m a passionate mobile app developer with 6 months of experience in Android and Flutter. I enjoy building clean, user-friendly apps and have worked with Firebase, secure login systems, and responsive UI design. I’m always eager to learn new technologies and improve my skills to create better digital experiences.
-                high-performance, user-focused web applications. Skilled in{" "}
-                <span className="text-accent">Flutter</span>,{" "}
-                <span className="text-accent">Dart</span>, and{" "}
+                high-performance, user-focused web applications. Skilled in
+                <span className="text-accent">Flutter</span>,
+                <span className="text-accent">Dart</span>, and
                 <span className="text-accent">Firebase</span>
               </div>
             </FadeUp>

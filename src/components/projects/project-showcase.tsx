@@ -1,11 +1,9 @@
 import { useMemo, useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 
 import { AnimatePresence, motion } from "framer-motion";
 
-import { ArrowTopRight } from "@/components/icons";
-import ProjectShowcaseList, {
+import  {
   type ProjectShowcaseListItem,
 } from "@/components/projects/project-showcase-list";
 
@@ -24,10 +22,6 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
     return generateImageData(props.projects);
   }, [props.projects]);
 
-  const handleAnimate = (index: number) => {
-    if (index === currentImage) return;
-    setCurrentImage(index);
-  };
 
   return (
     <section className="overflow-hidden">

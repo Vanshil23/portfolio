@@ -1,5 +1,4 @@
 import { RefObject, useRef } from "react";
-import Link from "next/link";
 
 import { motion, useScroll } from "framer-motion";
 
@@ -64,7 +63,7 @@ export default function ExperienceShowcaseListItem(
         }}
       >
         <h3 className="text-base font-bold text-foreground sm:text-xl md:text-2xl">
-          {props.title}{" "}
+          {props.title}
           
         </h3>
         <span className="text-sm font-medium text-foreground xs:text-base">

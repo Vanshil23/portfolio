@@ -9,10 +9,9 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2023-2025",
     location: "Charusat University, Gujarat",
-    description:
-      "",
+    description: "",
   },
-   {
+  {
     title: "Bachlor Of Computer Application (BCA)",
     organisation: {
       name: "Rizvi College Of Engineering",
@@ -20,9 +19,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2019-2022",
     location: "Dharmsinh Desai University, Gujarat",
-    description:
-      "",
+    description: "",
   },
-  
-
 ];

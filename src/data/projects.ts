@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -47,10 +46,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Hardware Stock Management",
     favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/Stock.jpg",
-     
-    ],
+    imageUrl: ["/images/projects/Stock.jpg"],
     description:
       "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
     sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
@@ -59,10 +55,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Kanban app",
     favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/Inv.jpg",
-      
-    ],
+    imageUrl: ["/images/projects/Inv.jpg"],
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
     sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
@@ -71,15 +64,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Many Games",
     favicon: "/images/projects/logos/manygames.ico",
-    imageUrl: [
-      "/images/projects/Elec.jpg",
-     
-    ],
+    imageUrl: ["/images/projects/Elec.jpg"],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
     sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
     liveWebsiteHref: "https://manygames.vercel.app",
   },
-  
-  
 ];
