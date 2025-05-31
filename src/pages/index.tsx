@@ -13,12 +13,12 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Vanshil Sheth | Software Developer"
+        title="Vanshil Sheth | Flutter Developer"
         description="Explore the professional portfolio of Vanshil Sheth, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Vanshil Sheth - Software Developer",
+          title: "Vanshil Sheth - Flutter Developer",
           description:
             "Dive into the world of web development with Vanshil Sheth. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
