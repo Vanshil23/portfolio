@@ -51,7 +51,7 @@ export default function Home() {
       </Head>
       <LandingHero />
       <SkillsShowcase skills={SKILLS_DATA} />
-      <ProjectShowcase projects={PROJECT_SHOWCASE} />
+      <ProjectShowcase  />
     </>
   );
 }
