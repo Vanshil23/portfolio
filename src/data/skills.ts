@@ -1,27 +1,27 @@
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
-import HtmlSvg from "/icons/html.svg";
-import CsssSvg from "/icons/css.svg";
-import dart from "/icons/dart.svg";
-import JavascriptSvg from "/icons/javascript.svg";
-import Flutter from "/icons/Flutter.svg";
-import PowerBi from "/icons/powerbi.svg";
-import React from "/icons/react.svg";
+import HtmlSvg from "../../public../../public/icons/html.svg";
+import CsssSvg from "../../public/icons/css.svg";
+import dart from "../../public/icons/dart.svg";
+import JavascriptSvg from "../../public/icons/javascript.svg";
+import Flutter from "../../public/icons/Flutter.svg";
+import PowerBi from "../../public/icons/powerbi.svg";
+import React from "../../public/icons/react.svg";
 
-import PythonSvg from "/icons/python.svg";
+import PythonSvg from "../../public/icons/python.svg";
 
 // Backend
-import NodejsSvg from "/icons/nodejs.svg";
-import Java from "/icons/java.svg";
+import NodejsSvg from "../../public/icons/nodejs.svg";
+import Java from "../../public/icons/java.svg";
 
 // Database and ORMS
-import Firebase from "/icons/firebase.svg";
-import Sqlite from "/icons/sqlite.svg";
+import Firebase from "../../public/icons/firebase.svg";
+import Sqlite from "../../public/icons/sqlite.svg";
 
 // Tools and Tech
-import Android from "/icons/android.svg";
-import VS from "/icons/vs.svg";
+import Android from "../../public/icons/android.svg";
+import VS from "../../public/icons/vs.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
