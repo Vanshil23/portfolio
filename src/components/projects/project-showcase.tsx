@@ -3,9 +3,7 @@ import Image from "next/image";
 
 import { AnimatePresence, motion } from "framer-motion";
 
-import  {
-  type ProjectShowcaseListItem,
-} from "@/components/projects/project-showcase-list";
+import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
 
 const generateImageData = (proj: ProjectShowcaseListItem[]) => {
   return proj.map((p) => p.image);
@@ -21,7 +19,6 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
   const images = useMemo(() => {
     return generateImageData(props.projects);
   }, [props.projects]);
-
 
   return (
     <section className="overflow-hidden">

@@ -64,7 +64,6 @@ export default function ExperienceShowcaseListItem(
       >
         <h3 className="text-base font-bold text-foreground sm:text-xl md:text-2xl">
           {props.title}
-          
         </h3>
         <span className="text-sm font-medium text-foreground xs:text-base">
           {props.date} | {props.location}

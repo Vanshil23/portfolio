@@ -35,7 +35,6 @@ export default function ProjectCard(props: ProjectCardProps) {
         <div className="mt-3">
           <p className="text-xs md:text-sm">{props.description}</p>
         </div>
-       
       </div>
     </motion.div>
   );

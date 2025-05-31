@@ -1,4 +1,3 @@
-
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -6,12 +5,11 @@ import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
 import dart from "@/public/icons/dart.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
-import Flutter from"@/public/icons/Flutter.svg";
+import Flutter from "@/public/icons/Flutter.svg";
 import PowerBi from "@/public/icons/powerbi.svg";
 import React from "@/public/icons/react.svg";
 
 import PythonSvg from "@/public/icons/python.svg";
-
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -25,8 +23,6 @@ import Sqlite from "@/public/icons/sqlite.svg";
 import Android from "@/public/icons/android.svg";
 import VS from "@/public/icons/vs.svg";
 
-
-
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Languages",
@@ -39,7 +35,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "CSS",
         icon: CsssSvg,
       },
-      
+
       {
         name: "Javascript",
         icon: JavascriptSvg,
@@ -48,7 +44,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Dart",
         icon: dart,
       },
-       {
+      {
         name: "Flutter",
         icon: Flutter,
       },
@@ -60,13 +56,13 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "PowerBi",
         icon: PowerBi,
       },
-       {
+      {
         name: "React",
         icon: React,
       },
     ],
   },
-  
+
   {
     sectionName: "Backend",
     skills: [
@@ -78,7 +74,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Java",
         icon: Java,
       },
-     
     ],
   },
   {
@@ -92,7 +87,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Sqlite",
         icon: Sqlite,
       },
-      
     ],
   },
   {
@@ -106,8 +100,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "VS",
         icon: VS,
       },
-     
-      
     ],
   },
 ];
