@@ -1,27 +1,26 @@
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
-import HtmlSvg from "../../public../../public/icons/html.svg";
-import CsssSvg from "../../public/icons/css.svg";
-import dart from "../../public/icons/dart.svg";
+import HtmlSvg from "../../public/icons/html.svg";
+import CssSvg from "../../public/icons/css.svg";
+import DartSvg from "../../public/icons/dart.svg";
 import JavascriptSvg from "../../public/icons/javascript.svg";
-import Flutter from "../../public/icons/Flutter.svg";
-import PowerBi from "../../public/icons/powerbi.svg";
-import React from "../../public/icons/react.svg";
-
+import FlutterSvg from "../../public/icons/flutter.svg";
+import PowerBiSvg from "../../public/icons/powerbi.svg";
+import ReactSvg from "../../public/icons/react.svg";
 import PythonSvg from "../../public/icons/python.svg";
 
 // Backend
 import NodejsSvg from "../../public/icons/nodejs.svg";
-import Java from "../../public/icons/java.svg";
+import JavaSvg from "../../public/icons/java.svg";
 
 // Database and ORMS
-import Firebase from "../../public/icons/firebase.svg";
-import Sqlite from "../../public/icons/sqlite.svg";
+import FirebaseSvg from "../../public/icons/firebase.svg";
+import SqliteSvg from "../../public/icons/sqlite.svg";
 
 // Tools and Tech
-import Android from "../../public/icons/android.svg";
-import VS from "../../public/icons/vs.svg";
+import AndroidSvg from "../../public/icons/android.svg";
+import VsSvg from "../../public/icons/vs.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
@@ -33,7 +32,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "CSS",
-        icon: CsssSvg,
+        icon: CssSvg,
       },
 
       {
@@ -42,11 +41,11 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "Dart",
-        icon: dart,
+        icon: DartSvg,
       },
       {
         name: "Flutter",
-        icon: Flutter,
+        icon: FlutterSvg,
       },
       {
         name: "Python",
@@ -54,11 +53,11 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "PowerBi",
-        icon: PowerBi,
+        icon: PowerBiSvg,
       },
       {
         name: "React",
-        icon: React,
+        icon: ReactSvg,
       },
     ],
   },
@@ -72,7 +71,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "Java",
-        icon: Java,
+        icon: JavaSvg,
       },
     ],
   },
@@ -81,11 +80,11 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     skills: [
       {
         name: "Firebase",
-        icon: Firebase,
+        icon: FirebaseSvg,
       },
       {
         name: "Sqlite",
-        icon: Sqlite,
+        icon: SqliteSvg,
       },
     ],
   },
@@ -94,11 +93,11 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     skills: [
       {
         name: "Android",
-        icon: Android,
+        icon: AndroidSvg,
       },
       {
         name: "VS",
-        icon: VS,
+        icon: VsSvg,
       },
     ],
   },
